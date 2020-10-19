@@ -1,0 +1,41 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+main {
+    height: 450px;
+    background-image: url(../nature-2609647_960_720.jpg);
+    font-family: 'Roboto', sans-serif;
+    font-size: 48pt;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  section {
+    display: flex;
+    height: 374px;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(224, 222, 222);
+  }
+
+ article {
+  font-family: 'Piazzolla', serif;
+    margin-left: 20px; margin-top: 20px;
+    width: 270px;
+    height: 324px;
+    background-color: rgb(224, 222, 222);
+  }
+
+  input {
+    border: none;
+  }
+  
+  button {
+    width: 60px; height: 25px;
+  }
