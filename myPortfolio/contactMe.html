@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./contactMe-styles.css">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    
+          <li><strong>Enter your email here</strong></li><br>
+          <form action="./result.html">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br><br>
+            
+             
+          <li><strong>Enter your comments here</strong></li><br>
+            <label for="comment">(min 20-max 500 characters):</label>
+            <textarea id="comment" name="comment" minlength="20" maxlength="500"></textarea><br><br>
+    
+          <li><strong>How did you hear about me?</strong></li><br>
+          
+            <input type="checkbox" id="source1" name="source1" value="friend">
+            <label for="source1">ClassMate</label><br>
+            <input type="checkbox" id="source2" name="source2" value="resume">
+            <label for="source2"> Resume Submission</label><br>
+            <input type="checkbox" id="source3" name="source3" value="linkedln">
+            <label for="source3">Linkedln</label><br>
+            <input type="checkbox" id="source4" name="source4" value="school">
+            <label for="source4">Coding Academy Rec</label><br>
+            <input type="checkbox" id="source5" name="source5" value="other">
+            <label for="source5">Other</label><br><br>
+            
+            
+    
+          <li><strong>Do you want to be contacted back?</strong></li><br>
+          
+            <input type="radio" id="yes" name="result" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="result" value="no">
+            <label for="no">No</label><br><br>
+    
+            <li><strong>Your Birthday Wish<em>(optional)</em></strong></li><br>
+            <label for="birthdayWish">(min 2-max 300 characters):</label>
+            <textarea id="birthdayWish" name="birthdayWish" minlength="2" maxlength="300"></textarea><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input class="submit" type="submit" value="Submit">
+            
+          </form>
+    
+  </body>
+  </html>
