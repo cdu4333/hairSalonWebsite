@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background: violet;
 
@@ -24,4 +25,32 @@ body {
       flex: 100%;
       max-width: 100%;
     }
+=======
+body {
+  background: violet;
+
+}
+
+.submit {
+    width: 120px;
+    height: 25px;
+    background: black;
+    color: blanchedalmond;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+>>>>>>> fdde1559e153f4f9d5959aebfc715ddb784f4e74
   }
