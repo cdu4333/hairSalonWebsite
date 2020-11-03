@@ -1,0 +1,107 @@
+
+  .item1 {
+    grid-area:myArea;
+    margin-top: 1px;
+    vertical-align: middle;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+    padding: 10px;
+    color: azure;
+    font-size: small;
+    width: auto;
+  }
+
+  .grid-container > div {
+    background-color: rgba(64, 224, 157, 0.671);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+  }
+  
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#item1 {
+    height: 250px;
+}
+#item2 {
+    height: 350px;
+    background-color: black;
+    font-size: 15px;
+}
+#item3 {
+    height: 350px;
+    background-color: black;
+    font-size: 15px;
+}
+#item4 {
+    height: 350px;
+    background-color: black;
+    font-size: 15px;
+}
+
+h1 {
+    position: relative;
+    vertical-align: text-top;
+    padding: 10px;
+}
+
+
+.skyblue-bar {
+    vertical-align: bottom;
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    background-color: skyblue;
+}
+
+.orange-red-bar {
+    vertical-align: bottom;
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    background-color: orangered;
+}
+
+.turquoise-bar {
+    vertical-align: bottom;
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    background-color: turquoise;
+}
+
+@media screen and (max-width: 992px) {
+  .grid-container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .grid-container {
+    grid-template-areas: 'myArea';
+    max-width: 100%;
+  }
+  #item1 {
+    background-color: turquoise;
+    font-size: 20px;
+  }
+  #item2 {
+    background-color: transparent;
+    font-size: 20px;
+    color: black;
+  }
+  #item3 {
+    background-color: transparent;
+    font-size:20px;
+    color: black;
+  }
+  #item4 {
+    background-color: transparent;
+    font-size: 20px;
+    color: black;
+  }
+}
