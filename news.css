@@ -160,3 +160,17 @@ body {
     color: white;
   }
   
+  
+@media screen and (max-width: 1060px) {
+    .header { width:100%; }
+    .footer { width:100%; }
+    .grid-container { width:50%; margin-left:3%; float: left;}
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .header { width:100%; }
+    .footer { width:100%; }
+    .grid-container { width:50%; margin:0; border:none; float: left;}
+}

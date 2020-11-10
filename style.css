@@ -334,3 +334,15 @@ body {
     color: white;
   }
   
+  @media screen and (max-width: 992px) {
+    .body {
+      max-width: 100%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+    .body {
+        max-width: 50%;
+    }
+  }
